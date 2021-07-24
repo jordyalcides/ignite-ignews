@@ -1,8 +1,8 @@
 import styles from './styles.module.sass'
 
-export function SubscribeButton() {
+export function SubscribeButton({ priceId }: SubscribeButtonProps) {
   return (
-    <button type="button" className={styles.subscribeButton}>
+    <button type='button' className={styles.subscribeButton}>
       Subscribe now
     </button>
   )

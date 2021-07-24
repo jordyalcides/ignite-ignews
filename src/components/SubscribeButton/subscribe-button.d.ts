@@ -1,0 +1,3 @@
+interface SubscribeButtonProps {
+  priceId: string;
+}
